@@ -3,14 +3,11 @@
 /// This is the best implementation of this program.
 
 fn main() {
-    print_hello();
-    print_goodbye();
+    print("Hello, World!");
+    print("Goodbye, world!");
 }
 
-fn print_hello() {
-    println!("Hello, world!");
-}
-
-fn print_goodbye() {
-    println!("Goodbye, world!");
+// a function that prints a message
+fn print(m: &str) {
+    println!("{m}");
 }
