@@ -2,6 +2,7 @@
 ///
 /// This is the best implementation of this program.
 
+/// The main function is run when our program starts.
 fn main() {
     print("Hello, World!");
 }
